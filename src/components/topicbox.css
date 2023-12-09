@@ -1,0 +1,48 @@
+.topbar{
+    background: rgb(240, 240, 50);
+    padding: 5px;
+    font-family: arial;
+    margin:0%;
+}
+
+.topbartxt{
+    text-align: center;
+    font-family: poppins;
+}
+
+.navbar{
+    background: rgb(247, 170, 6);
+    margin: 0%;
+}
+
+.logo{
+    font-size: 40px;
+    margin-left: 40px;
+    color: white;
+    font-family: inter;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    align-content: center;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(247, 170, 6);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:  rgb(255, 188, 44);
+  }
