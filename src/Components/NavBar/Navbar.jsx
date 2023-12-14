@@ -5,6 +5,8 @@ import logo from '../Assests/cover/log.png'
 import cart from '../Assests/icon/cart.svg' 
 
 export default function Navbar() {
+
+  
   return (
     <div className='navbar'>
       <div className="nav-logo">
@@ -12,7 +14,7 @@ export default function Navbar() {
         <p>D&S FOOD PRODUCTS</p>
       </div>
       <ul className='nav-menu'>
-        <li>Home<hr/></li>
+        <li>Home</li>
         <li>Catagaries</li>
         <li>About</li>
         <li>Contact us</li>
@@ -20,6 +22,7 @@ export default function Navbar() {
       <div className="nav-login-cart">
         <button>Login</button>
         <img src={cart} alt=''/>
+        <div className="nav-cart-count">0</div>
       </div>
       
     </div>
